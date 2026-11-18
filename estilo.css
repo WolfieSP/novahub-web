@@ -1,0 +1,9 @@
+/* Estilo común de las dos páginas */
+:root { color-scheme: light dark; --fondo: #f6f8fb; --texto: #18222e; --suave: #55657a; --acento: #0f7fa0; }
+@media (prefers-color-scheme: dark) { :root { --fondo: #08131f; --texto: #e4eef9; --suave: #89a3bc; --acento: #59e6f5; } }
+body { margin: 0; background: var(--fondo); color: var(--texto); font: 16px/1.6 system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 16px; }
+h1 { margin-bottom: 4px; }
+p.sub, footer { color: var(--suave); }
+a { color: var(--acento); }
+footer { margin-top: 40px; font-size: 14px; }
